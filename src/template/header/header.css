@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "YS Text";
+    src: url('../../../public/fonts/YandexSansDisplay-Bold.woff');
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    /* width: 70vw; */
+    height: 40px;
+    /* margin: 0 15vw; */
+    font-family: "YS Text";
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul ul {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+}
+
+header nav ul li {
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    color: red;
+}
+
+header nav ul input {
+    padding: 10px;
+    background-color: rgba(209, 207, 207, 0.793);
+    border-radius: 5px;
+    width: 500px;
+}
+
+header nav ul input::-moz-placeholder {
+    color: rgb(87, 87, 87);
+}
+
+header nav ul input::placeholder {
+    color: rgb(87, 87, 87);
+}

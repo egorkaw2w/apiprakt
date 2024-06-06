@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "YS Text";
+    src: url("../../../public/fonts/YandexSansDisplay-Bold.woff");
+}
+
+@font-face {
+    font-family: "YS Text";
+    src: url("../../../public/fonts/YandexSansDisplay-Regular.woff");
+}
+
+@font-face {
+    font-family: "YS Text";
+    src: url("../../../public/fonts/YandexSansText-Medium.woff");
+}
+
+.main-card {
+    width: 580px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    font-family: "YS Text", sans-serif;
+    text-align: start;
+    background-image: url("../../../public/img/weather_clear.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    /* margin: auto; */
+}
+
+.main-card .card-header {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    overflow: hidden;
+}
+
+.main-card .card-header h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.main-card .card-header .desc {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.781);
+    width: 25%;
+    justify-content: space-around;
+}
+
+.main-card .main-information .temperature {
+    font-size: 40px;
+}
+
+.main-card .main-information .attribute {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: "YT Text", sans-serif;
+    font-weight: normal;
+}
+
+.main-card .weather-line {
+    margin: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3215686275);
+}
+
+.main-card .weather-line .mini-weather-card {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65px;
+    width: 45px;
+    align-items: center;
+}
